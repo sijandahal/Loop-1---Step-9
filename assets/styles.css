@@ -28,7 +28,6 @@ h3 {
   width: 803px;
   height: 450px;
   margin: 0px auto;
-  overflow-y:  scroll;
 }
 
 .container__holder {
@@ -89,6 +88,8 @@ h3 {
  background-color: #fff;
  width: 502px;
  padding: 2.813em 2.500em; 
+ height: 450px;
+ overflow-y: scroll;
 }
 
 .container .right .right__heading{
