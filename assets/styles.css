@@ -37,7 +37,8 @@ h3 {
 .container .left {
   background-color: #f2f2f2;
   width: 303px;
-  padding: 2.813em 2.500em; 
+  padding: 2.813em 2.500em;
+  height: 450px;
   overflow-y: scroll;
 }
 
