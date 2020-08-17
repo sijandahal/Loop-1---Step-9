@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f7cd75;
+}
+
+h1 {
+  font-size: 1.15em;
+  font-weight: 500;
+  color: #333;
+}
+
+h3 {
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+}
+.container {
+  width: 803px;
+  height: 450px;
+  margin: 0px auto;
+  overflow-y:  scroll;
+}
+
+.container__holder {
+  display: flex;
+}
+.container .left {
+  background-color: #f2f2f2;
+  width: 303px;
+  padding: 2.813em 2.500em; 
+  overflow-y: scroll;
+}
+
+.container .left .left__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.container .holder {
+  width: 100%;
+  height: 114px;
+  width: 219px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 8px 8px 8px;
+  border: 2px solid #777272;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.container .holder:hover  {
+  cursor: pointer;
+  border: 2px solid #8797c6;
+}
+
+.container .holder:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.container .left .left__image img{
+  height: 40%;
+  margin-bottom: 1em;
+}
+
+.container .left p {
+  color: #777272;
+  font-weight: 500;
+}
+
+.container .left .valid {
+  font-size: 0.85em;
+}
+
+.container .right {
+ background-color: #fff;
+ width: 502px;
+ padding: 2.813em 2.500em; 
+}
+
+.container .right .right__heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2.2em;
+  border-bottom: 1px solid #777272;
+}
+
+.container .right .right__details {
+  display: flex;
+  align-items: flex-start;
+  margin: 40px auto;
+}
+
+.container .right .right__details:last-of-type{
+   margin : 40px 0px 0px 0px;
+}
+
+.container .right .svg__wrapper {
+  height: 1.25em;
+  width: 1.25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border : 1px solid #777272;
+  border-radius: 50%;
+  margin-right: 2em;
+}
+
+.container .right .sub__details p {
+  font-size: 13px;
+  color: #777272;
+  font-weight: 500;
+}
+
+.container .right h4  {
+  font-size: 1.05em;
+  margin-left: auto;
+  color: #8797c6;
+}
+
+.container .right .active{
+  color: #95d26d;
+}
